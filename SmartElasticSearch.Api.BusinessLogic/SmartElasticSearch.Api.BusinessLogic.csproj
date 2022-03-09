@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<LangVersion>preview</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SmartElasticSearch.Api.Models\SmartElasticSearch.Api.Models.csproj" />
+    <ProjectReference Include="..\SmartElasticSearch.AWSElasticSearch.Client\SmartElasticSearch.AWSElasticSearch.Client.csproj" />
+  </ItemGroup>
+
+</Project>
